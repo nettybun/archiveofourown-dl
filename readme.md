@@ -4,6 +4,9 @@ Downloads metadata for all works in your bookmarks. Works for any public
 bookmarks, and has a `login()` method to access your private ones too. Data is
 collected in the format below, but can be exported as JSON or CSV.
 
+Let me know if you'd like to see any other fields or new pages that can be
+downloaded. I don't actually use A03, so I'm flying a bit blind here...
+
 ## Data
 
 ```json
