@@ -1,0 +1,20 @@
+{
+  "name": "archiveofourown-dl",
+  "version": "0.0.0",
+  "description": "Download metadata from works in your bookmarks",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "json2csv": "^5.0.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

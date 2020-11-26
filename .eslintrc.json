@@ -1,0 +1,98 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "block-spacing": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "exports": "never",
+        "functions": "never",
+        "imports": "never",
+        "objects": "always-multiline"
+      }
+    ],
+    "comma-spacing": "error",
+    "default-param-last": "error",
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "eqeqeq": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "mode": "minimum"
+      }
+    ],
+    "keyword-spacing": "error",
+    "multiline-ternary": [
+      "error",
+      "always-multiline"
+    ],
+    "no-console": "off",
+    "no-fallthrough": "error",
+    "no-implicit-coercion": "error",
+    "no-invalid-this": "error",
+    "no-multi-spaces": [
+      "error",
+      {
+        "exceptions": {
+          "Property": true,
+          "TSTypeAnnotation": true
+        },
+        "ignoreEOLComments": true
+      }
+    ],
+    "no-tabs": "error",
+    "no-trailing-spaces": "error",
+    // Switch this as needed, otherwise too much noise
+    "no-unused-vars": "off",
+    "no-useless-concat": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
+    "prefer-destructuring": "error",
+    "prefer-template": "off",
+    "quote-props": [
+      "error",
+      "consistent-as-needed"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": "error",
+    "space-before-blocks": "error",
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "template-curly-spacing": "error",
+    "template-tag-spacing": "error"
+  }
+}
